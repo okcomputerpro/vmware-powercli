@@ -24,6 +24,7 @@
 
 .LINK
   http://blog.okcomputer.io
+
 #>
 
 [CmdletBinding()]
@@ -34,6 +35,9 @@ Param (
   [String[]]$NtpServer,
   [String]$Policy="On"
 )
+
+
+
 Process {
   Write-Host "Configuring NTP on: $($VMHost.Name)" -ForegroundColor Blue
 
