@@ -36,8 +36,6 @@ Param (
   [String]$Policy="On"
 )
 
-
-
 Process {
   Write-Host "Configuring NTP on: $($VMHost.Name)" -ForegroundColor Blue
 
